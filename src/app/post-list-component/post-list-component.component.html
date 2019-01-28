@@ -1,0 +1,10 @@
+<div class="container">
+        <h3>{{title}}</h3>
+          <ul class="list-group">
+             <app-post-list-item-component *ngFor="let post of PostList"
+                                [title]="post.title"
+                                [content]="post.content"
+                                [created_at]="post.created_at"
+                                 [loveIts]="post.loveIts"></app-post-list-item-component>
+          </ul>
+</div>

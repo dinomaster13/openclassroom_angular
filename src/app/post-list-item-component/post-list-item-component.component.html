@@ -1,0 +1,9 @@
+<li [ngClass]="{'list-group-item': true,
+                'list-group-item-danger': loveIts < 0,
+                'list-group-item-success': loveIts > 0}">
+  <span style="font-size:150%;font-weight: bold">{{title}}</span>
+  <span style="float: right;font-style: italic;">{{created_at|date:'d/m/yy, h:mm a'}}</span>
+  <div>{{content}}</div>
+  <button type="button" class="btn btn-success" (click)="onVoteUp()">Love it !</button>
+  <button type="button" class="btn btn-danger" (click)="onVoteDown()">Don't love it !</button>
+</li>
