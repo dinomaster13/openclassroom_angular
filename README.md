@@ -2,6 +2,8 @@
 
 Exercice 1 du cours Openclassroom "Développez des applications Web avec Angular ".
 
+Le dépôt est ici (je tâtonne un peu avec git, j'espère que tout est ok) : https://github.com/dinomaster13/openclassroom_angular
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
 
 ## Development server
